@@ -3,18 +3,35 @@
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <scriptsrc="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <scriptsrc=<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <title></title>
   </head>
   <body>
     <div class="container">
-
-
-
-
-
-    </div><!--container-->
+      <div class="row">
+        <form class="bank">
+          <div class="col-md-4">
+            <div class="form-group registarAccount">
+              <label for="register">Register a new Account:</label>
+              <input type="text" name="fullName" value="John Doe">
+              <input type="text" name="initalBalance" value="enter ammount">
+            </div><!--registarAccount-->
+            <div class="form-group depositWithdraw">
+              <label for="deposit">Deposit or withdraw funds:</label>
+              <input type="text" name="deposit" value="deposit">
+              <input type="text" name="withdrawl" value="withdraw">
+            </div><!--depositWithdraw-->
+            <div class="form-group currentBalance">
+              <label for="balance">Current Balance:</label>
+              <button type="submit" name="button" ></button>
+              <p class="balance">
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,3 +1,22 @@
 body {
   font-family: 'Roboto Slab', serif;
 }
+.registarAccount {
+  border: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+.depositWithdraw {
+  border: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+.currentBalance {
+  border: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+}
