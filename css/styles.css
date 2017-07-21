@@ -29,28 +29,14 @@ h1 {
 }
 .btn {
   margin-top: 20px;
-  background-color: #b19e74;
+  background-color: #e6ccb3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*------order-------*/
 .orderTotal {
-  border: 2px solid black;
+  float: right;
+  font-size: 40px;
   height: 50px;
   width: 50px;
   text-align:center;
+  padding-top: 10px;
 }
