@@ -6,7 +6,7 @@
 
 ## Description
 
-_The pizza place application will allow the user to make several choices to build their own pizza. The application will use bootstrap and jquery._
+_The pizza place application will allow the user to make several choices to build their own pizza. The application will use bootstrap and jquery. You can view the project at https://bethhansen.github.io/intro-week4-pizza/._
 
 ## Setup/Installation Requirements
 
