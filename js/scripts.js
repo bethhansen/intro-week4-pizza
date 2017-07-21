@@ -12,8 +12,7 @@ Pizza.prototype.dinner = function() {
   return this.proportion + this.topping + this.beverage;
 }
 Customer.prototype.client = function() {
-  return "Thank you for your order " + this.person + "!";
-  // return this.person + this.phone;
+  return "Thank you for your order " + this.person + "! We will call you at " + this.phone + " when your order is ready for pickup.";
 }
 
 //user interface logic

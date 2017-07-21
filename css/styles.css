@@ -33,6 +33,7 @@ h1 {
 }
 /*------order-------*/
 .orderTotal {
+  font-size: 25px;
   display: none;
   padding-top: 10px;
 }
