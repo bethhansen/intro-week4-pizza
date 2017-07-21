@@ -1,7 +1,53 @@
-body {
-  font-family: 'Roboto Slab', serif;
-  background-image: url("../img/pizza.jpg");
+html {
+  min-height: 100%;
 }
-.container {
+body {
+  background-image: url("../img/pizza.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto Slab', serif;
+}
+/*------header-------*/
+h1 {
+  font-size: 6em;
+  margin-top: 120px;
+}
+/*------center-------*/
+.orderSelection {
+  border-radius: 10px;
+  background-color: #ffffe6;
+  margin: 20px;
+  padding: 20px;
 
+}
+.label {
+  margin: 10px;
+  padding: 10px;
+}
+.btn {
+  margin-top: 20px;
+  background-color: #b19e74;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.orderTotal {
+  border: 2px solid black;
+  height: 50px;
+  width: 50px;
+  text-align:center;
 }
