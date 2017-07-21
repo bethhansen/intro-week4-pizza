@@ -3,23 +3,22 @@
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <scriptsrc=<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <title></title>
+    <title>Pizza</title>
   </head>
   <body>
     <div class="container">
       <div class="row">
-        <div class="form-group">
-          <select class="form-control" id="Size">
+        <form id="orderForm">
+          <select class="form-control" id="size">
             <option value="4">Personal</option>
             <option value="6">Small</option>
             <option value="8">Medium</option>
             <option value="10">Large</option>
             <option value="12">Family Size</option>
           </select>
-          <select class="form-control" id="beverage">
+          <select class="form-control" id="topping">
             <option value="2">Hawaiian</option>
             <option value="3">Pepperoni</option>
             <option value="5">Meat Marvel</option>
@@ -32,8 +31,12 @@
             <option value="2">Glass of Beer</option>
             <option value="0">Water</option>
           </select>
-        </div><!--form-group-->
+          <button type="submit" name="button" id="orderButton">Place your order</button>
+          <p id=order>
+
+          </p>
+        </form><!--form-group-->
       </div><!--row-->
-    </div>
+    </div><!--container-->
   </body>
 </html>
