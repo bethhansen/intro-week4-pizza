@@ -16,14 +16,33 @@ _The pizza place application will allow the user to make several choices to buil
 
 ## Specs
 
-Description   | Input        | Output
+| Tables        | Are           | Output  |
+| ------------- |:-------------:| -----:|
+|User selects a pizza size| Small | User selected a small pizza |
+|User selects a topping | Cheese | User selected a cheese topping |
+|User selects a beverage | Coke | User selected a coke |
+|Cost of selections added | Small, Cheese, Coke | Dollar amount displayed |
+|Selection items displayed | Small, Cheese, Coke | $15 |
+||||
+||||
+||||
+||||
+
+
+
+
+
+
+
+
+Description   | Input        |
 ------------- | -------------  -------------
-User selects a pizza size  | Small | User selected a small pizza
-User selects a topping   | Cheese | User selected a cheese topping
-User selects a beverage  | Coke | User selected a coke
-Cost of selections added  | Small, Cheese, Coke | Dollar amount displayed
-Selection items displayed in receipt  | Small, Cheese, Coke & Dollar amount displayed |
-User inputs name  | Dean Kamen | Dean Kamen name displayed
+  ||
+||
+||
+||
+| displayed |
+|| Dean Kamen name displayed
 User inputs address  | 129 Sw Innovator st.  | 129 Sw Innovator st. displayed
 
 
