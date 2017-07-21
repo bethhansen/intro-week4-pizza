@@ -1,40 +1,42 @@
-# _{Application Name}_
+# _Pizza Place_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A pizza store web application that will allow a user to choose differnt options of pizza and receive a price, July 21, 2017_
 
 #### By _**Beth Hansen**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_The pizza place application will allow the user to make several choices to build their own pizza. The application will use bootstrap and jquery._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Clone the repo_
+* _Open in your favorite editor_
+* _Explore!_
 
 ## Specs
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+Description   | Input        | Output
+------------- | -------------  -------------
+User selects a pizza size  | Small | User selected a small pizza
+User selects a topping   | Cheese | User selected a cheese topping
+User selects a beverage  | Coke | User selected a coke
+Cost of selections added  | Small, Cheese, Coke | Dollar amount displayed
+Selection items displayed in receipt  | Small, Cheese, Coke & Dollar amount displayed |
+User inputs name  | Dean Kamen | Dean Kamen name displayed
+User inputs address  | 129 Sw Innovator st.  | 129 Sw Innovator st. displayed
+
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Any comments or suggestions, please contact Beth Hansen at beth97209@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Bootstrap and Jquery_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT*
 
-Copyright (c) 2016 **_Beth Hansen_**
+Copyright (c) 2017 **_Beth Hansen_**
