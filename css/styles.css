@@ -20,9 +20,12 @@ h1 {
   padding: 20px;
 
 }
-.label {
+.choiceLabel {
   margin: 10px;
   padding: 10px;
+}
+.inputLabel{
+  margin-top: 10px;
 }
 .btn {
   margin-top: 20px;
