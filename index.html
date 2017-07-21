@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <title>Pizza</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.2.1.js"integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <title>Pizza</title>
   </head>
   <body>
     <div class="container">
       <div class="row">
         <form id="orderForm">
-          <select class="form-control" id="size">
+          <!-- <select class="form-control" id="proportion">
             <option value="4">Personal</option>
             <option value="6">Small</option>
             <option value="8">Medium</option>
             <option value="10">Large</option>
             <option value="12">Family Size</option>
-          </select>
+          </select> -->
           <select class="form-control" id="topping">
             <option value="2">Hawaiian</option>
             <option value="3">Pepperoni</option>
@@ -29,13 +29,13 @@
             <option value="4">Pitcher of Beer</option>
             <option value="1">Glass of Soda</option>
             <option value="2">Glass of Beer</option>
-            <option value="0">Water</option>
+            <!-- <option value="0">Water</option> -->
           </select>
-          <button type="submit" name="button" id="orderButton">Place your order</button>
-          <p id=order>
-
-          </p>
+          <button type="submit" name="button" class="btn">Place your order</button>
         </form><!--form-group-->
+        <div class="orderTotal">
+          <p id=order></p>
+        </div><!--orderTotal-->
       </div><!--row-->
     </div><!--container-->
   </body>

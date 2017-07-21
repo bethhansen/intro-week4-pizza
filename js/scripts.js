@@ -1,14 +1,13 @@
 //business logic
-function Pizza(proportion, topping, beverage) {
-  this.proportion = proportion;
+function Pizza(topping, beverage) {
+  // this.proportion = proportion;
   this.topping = topping;
   this.beverage = beverage;
 }
 
-pizza.prototype.dinner = function() {
-  return this.proportion + this.topping + this.beverage;
+Pizza.prototype.dinner = function() {
+  return this.topping + this.beverage;
 }
-alert("hi");
 
 
 //user interface logic
@@ -16,12 +15,12 @@ $(document).ready(function() {
   $("#orderForm").submit(function(event) {
     event.preventDefault();
 
-    var inputtedProportion = parseInt($("#proportion").val());
+    // var inputtedProportion = parseInt($("#proportion").val());
     var inputtedTopping = parseInt($("#topping").val());
     var inputtedBeverage = parseInt($("#beverage").val());
-    var newPizza = new Pizza (inputtedproportion, inputtedTopping, inputtedBeverage);
-console.log(inputtedProportion);
+// console.log(inputtedBeverage);
+    var newPizza = new Pizza (inputtedTopping, inputtedBeverage);
 
-    $("#order").text(newPizza.dinner);
+    $("#order").text(newPizza.dinner());
   });
 });
