@@ -22,7 +22,7 @@ $(document).ready(function() {
 
     var inputtedProportion = parseInt($("#proportion").val());
     var inputtedTopping = parseInt($("#topping").val());
-    var inputtedBeverage = parseInt($("#beverage").val());
+    var inputtedBeverage = parseFloat($("#beverage").val());
     var inputtedPerson = $("#person").val();
     var inputtedPhone = $("#phone").val();
 
